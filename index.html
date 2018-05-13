@@ -8,12 +8,29 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.2/sandstone/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+
 
 </head>
 <body>
-    <div class="jumbotron">
-        <h1 class="text-center">DER DIE DAS</h1>
-        <h3 class="text-center">Spiel</h3>
+    <div class="header">
+        <div class="jumbotron">
+            <h1 class="text-center">DER DIE DAS</h1>
+            <h3 class="spiel text-center">Das Spiel</h3>
+        </div>
+    </div>
+    <div class="container">
+        <div id="game-container" class="game">
+            <h3 class="text-center">Bereit zum Spielen?</h3>
+            <div class="start-div text-center">
+                <button type="button" class="start-btn btn btn-success" onclick="start()">Start</button>
+            </div>
+        </div>
+        <div id="result"></div>
+        <div id="game-over"></div>
+    </div>
+    <div class="footer">
+        <p class="text-center">Made by Nicolás Hardmeier</p>
     </div>
 </body>
 </html>

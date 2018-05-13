@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color:#083B5B;
+    width:100vw;
+    height:35vh;
+    padding-top: 20px;
+}
+.jumbotron{
+    width:70vw;
+    height:180px;
+    border:2px solid #000;
+    border-radius:8px;
+    margin:auto;
+    font-family: "Oswald", "Roboto", sans-serif;
+}
+.spiel{
+    margin-left:100px;
+    font-family: "Lobster","Roboto";
+}
+.game{
+    margin-top:30px;
+}
+.start-div{
+    width:200px;
+    margin:20px auto;
+}
+.buttons{
+    width:350px;
+    text-align: center;
+    margin: 40px auto;
+
+}
+.btn{
+    margin:0 20px;
+    padding:10px 20px;
+}
+
+#words-container{
+    font-family: "Lobster","Roboto", sans-serif;
+
+}
+#score{
+    border:2px solid #000;
+    border-radius:6px;
+    background-color: #f6f6f6;
+    width:80px;
+    padding: 10px;
+    font-family:  "Oswald", "Roboto", sans-serif;
+    font-weight: 600;
+
+}
+.danke{
+    font-family: "Lobster","Roboto", sans-serif;
+
+}
+.footer{
+    width:100vw;
+    position:fixed;
+    bottom:0px;
+    background-color:#083B5B;
+    color:#fff;
+
+}
+
+.correct{
+    background-color:#39BB19;
+}
