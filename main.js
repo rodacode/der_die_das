@@ -1,7 +1,7 @@
 words=[
     {
         word:"Arbeit",
-        answer:"Das"
+        answer:"Die"
     },
     {
         word:"Sohnne",
@@ -13,6 +13,11 @@ words=[
     },
     {
         word:"Löwe",
+        answer:"Der"
+    }
+    ,
+       {
+        word:"Freitag",
         answer:"Der"
     }
 ];
